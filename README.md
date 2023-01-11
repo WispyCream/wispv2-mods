@@ -1,2 +1,2 @@
-# wispv2-mods
-A collection of mods for WISP v2's JS - &amp; CSS injector!
+## WispyCream's WISP v2 mods collection
+Find all the best WISP v2 mods from here!
