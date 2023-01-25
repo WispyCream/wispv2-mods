@@ -12,7 +12,7 @@ Search for "new Fireworks" in the JS.<br />
 + [w3schools](https://www.w3schools.com/howto/howto_css_switch.asp) for slider.
 
 
-### JS & CSS can be found in this repo ([script.js](https://raw.githubusercontent.com/WispyCream/wispv2-mods/main/fireworks/script.js) & [style.css](https://raw.githubusercontent.com/WispyCream/wispv2-mods/main/fireworks/style.css))
+### JS & CSS can be found in this repo ([script.js](/script.js) & [style.css](/style.css))
 
 <br />
 
