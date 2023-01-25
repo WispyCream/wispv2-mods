@@ -4,7 +4,10 @@ Made for WISP v2 by [Bad](https://bad.is-having.fun)
 
 ### Editing Fireworks
 Search for "new Fireworks" in the JS.
-Here's the options if you are wanting to modify you can, [check here](https://github.com/crashmax-dev/fireworks-js/tree/v1#options).
+
+<br />
+
+Here's the options if you are wanting to modify, [check here](https://github.com/crashmax-dev/fireworks-js/tree/v1#options).
 
 
 ### Thanks 
@@ -14,5 +17,6 @@ Here's the options if you are wanting to modify you can, [check here](https://gi
 
 ### JS & CSS can be found in this repo ([script.js](https://raw.githubusercontent.com/WispyCream/wispv2-mods/main/fireworks/script.js) & [style.css](https://raw.githubusercontent.com/WispyCream/wispv2-mods/main/fireworks/style.css))
 
+<br />
 
 ![Preview](https://user-images.githubusercontent.com/87938689/211903682-b56be4c1-dd9a-4dd7-8d62-5140bac567fa.gif)
