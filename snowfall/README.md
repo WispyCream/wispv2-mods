@@ -24,7 +24,7 @@ If you want to edit "the snowfall" search for "generatorDelay" in the JS.
 + [w3schools](https://www.w3schools.com/howto/howto_css_switch.asp) for slider.
 
 
-### JS & CSS can be found in this repo ([script.js](https://raw.githubusercontent.com/WispyCream/wispv2-mods/main/snowfall/script.js) & [style.css](https://raw.githubusercontent.com/WispyCream/wispv2-mods/main/snowfall/style.css))
+### JS & CSS can be found in this repo ([script.js](/script.js) & [style.css](/style.css))
 
 <br />
 
