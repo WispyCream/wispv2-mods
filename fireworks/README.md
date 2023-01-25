@@ -12,7 +12,7 @@ Search for "new Fireworks" in the JS.<br />
 + [w3schools](https://www.w3schools.com/howto/howto_css_switch.asp) for slider.
 
 
-### JS & CSS can be found in this repo ([script.js](/script.js) & [style.css](/style.css))
+### JS & CSS can be found in this repo ([script.js](script.js) & [style.css](style.css))
 
 <br />
 
