@@ -4,7 +4,7 @@ Made for WISP v2 by [Bad](https://bad.is-having.fun)
 
 ### Editing Fireworks
 Search for "new Fireworks" in the JS.
-Here's the options if you are wanting to modify ▶ [link](https://github.com/crashmax-dev/fireworks-js/tree/v1#options).
+Here's the options if you are wanting to modify you can, [check here](https://github.com/crashmax-dev/fireworks-js/tree/v1#options).
 
 
 ### Thanks 
