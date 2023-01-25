@@ -12,7 +12,7 @@ Here's the options if you are wanting to modify: [Link](https://github.com/crash
 + [w3schools](https://www.w3schools.com/howto/howto_css_switch.asp) for slider.
 
 
-### [JS & CSS](https://gist.github.com/yesBad/e2352d7188c222cd50b9523dc4203b6f)
+### JS & CSS can be found in this repo ([script.js](https://raw.githubusercontent.com/WispyCream/wispv2-mods/main/fireworks/script.js) & [style.css](https://raw.githubusercontent.com/WispyCream/wispv2-mods/main/fireworks/style.css))
 
 
 ![Preview](https://user-images.githubusercontent.com/87938689/211903682-b56be4c1-dd9a-4dd7-8d62-5140bac567fa.gif)
