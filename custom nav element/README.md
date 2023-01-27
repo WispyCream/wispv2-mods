@@ -3,11 +3,11 @@
 Made for WISP v2 by [Bad](https://bad.is-having.fun)
 
 ### Editing Custom Nav Redirect
-If you want to edit nav redirect here's how:
-![Edit](https://user-images.githubusercontent.com/87938689/215141557-3e56906f-a9df-4495-90a9-597998019ea5.png)
-
-
+<details>
+<summary>If you want to edit nav redirect here's how:</summary>
+![Edit](https://user-images.githubusercontent.com/87938689/215142047-93735ea6-8bd0-430d-ba7b-dd9c6e276d0c.png)
 </details>
+
 
 ### Thanks 
 + Myself for everything :)
