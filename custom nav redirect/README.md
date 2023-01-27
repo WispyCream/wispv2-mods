@@ -14,7 +14,7 @@ Made for WISP v2 by [Bad](https://bad.is-having.fun)
 
 
 ### Thanks 
-+ Myself for everything :)
++ [Peter C](https://stackoverflow.com/a/10419974) for the SPA fix.
 
 
 ### JS can be found in this repo ([script.js](script.js))
