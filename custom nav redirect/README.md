@@ -10,6 +10,7 @@ Made for WISP v2 by [Bad](https://bad.is-having.fun)
 
 </details>
 
+It works, but an issue is that it forces a page reload... Have to fix that somehow-
 
 ### Thanks 
 + [Peter C](https://stackoverflow.com/a/10419974) for the SPA fix.
