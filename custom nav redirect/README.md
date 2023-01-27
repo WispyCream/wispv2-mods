@@ -13,7 +13,7 @@ Made for WISP v2 by [Bad](https://bad.is-having.fun)
 + Myself for everything :)
 
 
-### JS can be found in this repo ([script.js](script.js)
+### JS can be found in this repo ([script.js](script.js))
 
 <br />
 
