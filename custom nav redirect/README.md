@@ -5,7 +5,9 @@ Made for WISP v2 by [Bad](https://bad.is-having.fun)
 ### Editing Custom Nav Redirect
 <details>
 <summary>If you want to edit nav redirect here's how:</summary>
+
 ![Edit](https://user-images.githubusercontent.com/87938689/215142047-93735ea6-8bd0-430d-ba7b-dd9c6e276d0c.png)
+
 </details>
 
 
