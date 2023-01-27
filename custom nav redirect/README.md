@@ -1,5 +1,4 @@
-# currently broken fixing asap
-
+# maybe work?
 # Custom Nav Redirect 🔗👀
 
 Made for WISP v2 by [Bad](https://bad.is-having.fun)
@@ -15,6 +14,7 @@ Made for WISP v2 by [Bad](https://bad.is-having.fun)
 
 ### Thanks 
 + [Peter C](https://stackoverflow.com/a/10419974) for the SPA fix.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement) for teaching me insertAdjacentElement().
 
 
 ### JS can be found in this repo ([script.js](script.js))
