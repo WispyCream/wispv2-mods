@@ -1,3 +1,5 @@
+# currently broken fixing asap
+
 # Custom Nav Redirect 🔗👀
 
 Made for WISP v2 by [Bad](https://bad.is-having.fun)
