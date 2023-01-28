@@ -24,7 +24,7 @@ If you want to edit "the snowfall" search for "generatorDelay" in the JS.
 + [w3schools](https://www.w3schools.com/howto/howto_css_switch.asp) for slider.
 
 
-### JS & CSS can be found in this repo ([script.js](script.js) & [style.css](style.css))
+### JS & CSS can be found in this repo ([script.min.js](script.min.js) & [style.min.css](style.min.css))
 
 <br />
 

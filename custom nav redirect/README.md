@@ -17,7 +17,7 @@ Made for WISP v2 by [Bad](https://bad.is-having.fun)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement) for teaching me insertAdjacentElement().
 
 
-### JS can be found in this repo ([script.js](script.js))
+### JS can be found in this repo ([script.min.js](script.min.js))
 
 <br />
 
