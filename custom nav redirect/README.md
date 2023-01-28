@@ -12,7 +12,7 @@ Made for WISP v2 by [Bad](https://bad.is-having.fun)
 
 
 ### Thanks 
-+ [Peter C](https://stackoverflow.com/a/10419974) for the SPA fix.
++ [krenny](https://github.com/WispyCream/wispv2-mods/pull/1) for fixing the reloading issue.
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement) for teaching me insertAdjacentElement().
 
 
