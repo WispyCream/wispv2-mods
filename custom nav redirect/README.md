@@ -6,7 +6,8 @@ Made for WISP v2 by [Bad](https://bad.is-having.fun)
 <details>
 <summary>If you want to edit nav redirect here's how:</summary>
 
-![Edit](https://user-images.githubusercontent.com/87938689/215142047-93735ea6-8bd0-430d-ba7b-dd9c6e276d0c.png)
+![Edit](https://user-images.githubusercontent.com/87938689/215275143-b9d67d00-6774-4f53-bfeb-abb39367700c.png)
+
 
 </details>
 
