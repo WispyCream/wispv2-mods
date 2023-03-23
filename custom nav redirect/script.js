@@ -7,19 +7,49 @@ window.addEventListener("load", function () {
       navbar: "Tools",                            // exactly named as the dropdown/navbar entry also case sensitive
       target: "_blank"                            // how should the link be opened? _blank for a new tab, also _bank will add rel="noopener noreferrer" attribut
     },
+    "Edit Server.Properties": {
+      //Code wrapped between < and > will be executed when the navbar is loaded, in this example the code gets executed when the Tools navbar gets clicked
+      link: '<if(window.location.href.match(new RegExp("server/.*/")) === null) window.location.href.substring(window.location.href.indexOf("/server/")) + "/"; else "/" + window.location.href.match(new RegExp("server/.*/"))[0];>files/edit#/server.properties',
+      navbar: "Tools",
+      target: "_blank",
+    },
     Krenny: {
-      link: "http://krenny.is-having.fun",
+      link: "files/edit#/server.properties",
       navbar: "none",
-      target: "_self"
+      target: "_self",
     },
     WispyCream: {
       link: "https://github.com/WispyCream/wispv2-mods/tree/main/custom%20nav%20redirect",
       navbar: "none",
-      target: "_blank"
+      target: "_blank",
     },
   };
 
   // STOP EDITING
+
+  //splits strings based on a starting and ending char
+  //returns array with substrings but ending char gets removed
+  function extractString(template, initChar, finalChar) {
+    let i = 0;
+    let iOld = 0;
+    let data = [];
+    do {
+      if (template[i] == initChar) {
+        if (!(i == 0)) data[data.length] = template.slice(iOld, i);
+        for (let j = i + 1; j < template.length; j++) {
+          if (template[j] == finalChar) {
+            data[data.length] = template.slice(i, j);
+            i = j + 1;
+            iOld = i;
+            break;
+          }
+        }
+      }
+    } while (++i < template.length);
+    data[data.length] = template.slice(iOld, i);
+    return data;
+  }
+
   document.addEventListener(
     "click",
     function (e) {
@@ -37,9 +67,31 @@ window.addEventListener("load", function () {
             let listing =
               bar.children[1].children[0].children[0].cloneNode(true);
             listing.children[0].children[0].children[0].innerHTML = title;
-            listing.children[0].children[0].href = buttons[title].link;
-            listing.children[0].children[0].setAttribute("target",buttons[title].target);
-            if(buttons[title].target == "_blank") listing.children[0].children[0].setAttribute("rel","noopener noreferrer");
+            try {
+              let link = "";
+              console.log(extractString(buttons[title].link, "<", ">"));
+              extractString(buttons[title].link, "<", ">").forEach(
+                (commands) => {
+                  if (commands.charAt(0) == "<")
+                    link = link + eval(commands.substring(1));
+                  else link = link + commands;
+                }
+              );
+              listing.children[0].children[0].href = link;
+              console.log(link);
+            } catch (e) {
+              console.debug(e);
+              listing.children[0].children[0].href = buttons[title].link;
+            }
+            listing.children[0].children[0].setAttribute(
+              "target",
+              buttons[title].target
+            );
+            if (buttons[title].target == "_blank")
+              listing.children[0].children[0].setAttribute(
+                "rel",
+                "noopener noreferrer"
+              );
             bar.children[1].children[0].appendChild(listing);
           }
         } catch (e) {
@@ -58,8 +110,6 @@ window.addEventListener("load", function () {
           "text-white text-opacity-75"
         );
         clearInterval(s);
-        console.debug(buttons[title].navbar);
-        console.debug(buttons[title].navbar == "none");
         if (buttons[title].navbar == "none") {
           let a = document.createElement("li");
           a.setAttribute("class", "px-6 py-3");
@@ -69,8 +119,9 @@ window.addEventListener("load", function () {
           a.appendChild(span);
           link = document.createElement("a");
           link.setAttribute("href", buttons[title].link);
-          link.setAttribute("target",buttons[title].target);
-          if(buttons[title].target == "_blank") link.setAttribute("rel","noopener noreferrer");
+          link.setAttribute("target", buttons[title].target);
+          if (buttons[title].target == "_blank")
+            link.setAttribute("rel", "noopener noreferrer");
           link.setAttribute(
             "class",
             "cursor-pointer router-link flex justify-between"
