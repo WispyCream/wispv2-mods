@@ -9,6 +9,7 @@ window.addEventListener("load", function () {
     },
     "Edit Server.Properties": {
       //Code wrapped between < and > will be executed when the navbar is loaded, in this example the code gets executed when the Tools navbar gets clicked
+      // DO NOT paste code here you don't trust!
       link: '<if(window.location.href.match(new RegExp("server/.*/")) === null) window.location.href.substring(window.location.href.indexOf("/server/")) + "/"; else "/" + window.location.href.match(new RegExp("server/.*/"))[0];>files/edit#/server.properties',
       navbar: "Tools",
       target: "_blank",
@@ -56,6 +57,7 @@ window.addEventListener("load", function () {
       Object.keys(buttons).forEach((title) => {
         try {
           let bar = e.target.parentElement;
+          if(bar.classList == "flex justify-between cursor-pointer px-6 py-3") bar = bar.parentElement;
           if (
             !(
               bar.classList ==
@@ -69,7 +71,6 @@ window.addEventListener("load", function () {
             listing.children[0].children[0].children[0].innerHTML = title;
             try {
               let link = "";
-              console.log(extractString(buttons[title].link, "<", ">"));
               extractString(buttons[title].link, "<", ">").forEach(
                 (commands) => {
                   if (commands.charAt(0) == "<")
@@ -78,7 +79,6 @@ window.addEventListener("load", function () {
                 }
               );
               listing.children[0].children[0].href = link;
-              console.log(link);
             } catch (e) {
               console.debug(e);
               listing.children[0].children[0].href = buttons[title].link;
@@ -106,9 +106,6 @@ window.addEventListener("load", function () {
     var s = setInterval(function () {
       try {
         let n = document.getElementsByClassName("absolute top-0 left-0 w-full");
-        let navbars = document.getElementsByClassName(
-          "text-white text-opacity-75"
-        );
         clearInterval(s);
         if (buttons[title].navbar == "none") {
           let a = document.createElement("li");
@@ -138,7 +135,7 @@ window.addEventListener("load", function () {
           n[1].insertAdjacentElement("beforeend", a);
         }
       } catch (i) {
-        console.log(i);
+        console.debug(i);
       }
     }, 600);
   });
